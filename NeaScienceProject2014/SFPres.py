@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/home/pi/raspberrypi/Adafruit-Raspberry-Pi-Python-Code/Adafruit_CharLCDPlate")
+
 from time import sleep
 import RPi.GPIO as GPIO
 from Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
